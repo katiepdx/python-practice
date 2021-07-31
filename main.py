@@ -1,18 +1,27 @@
-# coding=utf-8
-# This is a sample Python script.
+# Print exercise
+print('This is a print statement')
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+favorite_drink = 'coffee'
+print('Your favorite drink is ' + favorite_drink)
 
-def get_age():
-    birth_year = input("What year were you born? ")
-    age = 2021 - int(birth_year)
-    print("You are " + str(age) + " years old.")
+# Scrimba Variables and Datatypes Exercise 
+item_name = "Rubik's Cube"
+price = 12.99
+inventory = 33
+is_in_inventory = True
 
+print(item_name, price, inventory, is_in_inventory)
 
+# Arithmetic Operations Exercise
+a = 5
+b = 2
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    get_age()
+print('Addition: ', a + b)
+print('Subtraction: ', a - b)
+print('Multiplication: ', a * b)
+print('Division (float):', a / b)
+print('Division (floor): ', a // b)
+print('Modulus: ', a % b)
+print('Exponent: ', a ** b)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Next lesson in tutorial: https://scrimba.com/learn/python/strings-basics-slicing-cGeMGQcE
