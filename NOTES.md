@@ -1,5 +1,6 @@
 # Python Notes
 .idea is for pycharm ide
+To run code with python3, enter `python3 path/to/python-file.py`
 # Brython library
 Brython - lets you run python in the browser -> scrimba
 Python code converted to JS
@@ -41,3 +42,14 @@ variable names: snakecase --> favorite_drink
 - Division (floor): a // b
 - Modulus: a % b
 - Exponent: a ** b
+
+## Functions
+- functions are defined and use the word `def` before and end with a `:` after the parenthesis. The code block uses indentation to show what belongs with the function. 
+
+```py
+def my_new_function(param1, param2):
+  print(f'Printing param1 {param1} and param2 {param2} using an fstring -- string literal')
+
+my_new_function('hello1', 'hello2')
+  
+```
